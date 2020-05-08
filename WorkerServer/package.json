@@ -1,0 +1,11 @@
+{
+  "name": "worker-server",
+  "version": "1.0.0",
+  "description": "Worker Server RabbitMQ",
+  "dependencies": {
+    "amqplib": "latest",
+    "js-beautify": "^1.9.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.1"
+  }
+}

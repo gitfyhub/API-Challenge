@@ -1,0 +1,10 @@
+{
+  "name": "master-server",
+  "description": "MasterServer",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "express": "4.17.1"
+  }
+}
