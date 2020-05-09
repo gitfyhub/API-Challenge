@@ -2,12 +2,19 @@
 
 Demonstrating distributed development using Calling function (Python), Rest API (MasterServer), Queue (RabbitMQ), and Worker Service (WorkerServer).
 
-Basic flow:
+## Basic flow:
+
+The original challenge design was to utilize sockets in a basic flow as shown below.
 
 Python -> MasterServer ->RabbitMQ -> WorkerServer
 
+## Enhanced Design
 
-## Detail Logical Diagram
+I enhanced the design by utilizing a queue service to enable better throughput and lower latency by enabling multiple WorkerServers.  
+
+In testing I was able to demonstrate RabbitMQ will distribute the load in round-robin to the multiple WorkerServers.
+
+
 ![Test Image 1](Logical_Design_v2.png)
 
 
