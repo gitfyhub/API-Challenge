@@ -26,7 +26,13 @@ app.get('/worker_params', function (req, res) {
         persistent: true,
       });
     });
+    setTimeout(function () {
+      connection.close();
+      // process.exit(0);
+    }, 500);
   });
+
+  res.send('done');
 });
 
 app.get('/', function (req, res) {
