@@ -32,6 +32,10 @@ To start RabbitMQ run the below command in terminal
 
 To verify it is working browse to http://localhost:15672/#/queues
 
+## Run Python (python)
+To execute the python.py code run the below in the terminal
+
+`python3 python.py` 
 
 ## Run Python (node)
 
