@@ -6,7 +6,7 @@ Demonstrating distributed development using Calling function (Python), Rest API 
 
 The original challenge design was to utilize sockets in a basic flow as shown below.
 
-Python -> MasterServer ->RabbitMQ -> WorkerServer
+Python -> MasterServer -> WorkerServer
 
 ## Enhanced Design
 
